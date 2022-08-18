@@ -1,72 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-table, th, td {
-  border: 1px solid black;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 </style>
 </head>
 <body>
 
-<h2>Uutiset</h2>
+<h2>Wilma Murron valmentaja kertoo, mitä kultajuhlaan päättyneessä finaalissa oikein tapahtui</h2>
 
-<p>Kolme paras uutiset</p>
+<div class="container">
+  <img src="/w3images/notebook.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1>HARRI AHOLA
 
-<table style="width:100%">
-  <tr>
-    <th>Kaarinalaiskoulun läheisyyteen tiehen maalatut jättimäiset varoituskolmiot saavat tyrmäyksen tietyn ryhmän keskuudessa</th>
-  </tr>
-  <tr>
-    <td>10:18</td>
-
-  </tr>
-  <tr>
-    <td>Kaarinan Piispanlähteen koulun läheisyyteen Pyhän Katariinan tielle maalatut isot lapsista varoittavat kolmiot ovat herättäneet keskustelua.
-
-Viime viikolla torstain ja perjantain vastaisena yönä tehty...
-
-</td>
-
-
-  
-    <tr>
-    <th>Tänään varsinaissuomalaisille kotisohville on tarjolla täysin poikkeuksellinen urheiluilta, jota ei kannata jättää väliin</th>
-  </tr>
-  
- 
-  <tr>
-    <td>9:00</td>
-
-  </tr>
-  <tr>
-    <td>Varsinaissuomalaisten urheilun ystävien kannattaa nauttia tästä illasta täysin siemauksin. Silloin Wilma Murto ja Silja Kosonen kamppailevat samaan aikaan Münchenin Olympiastadionin eri päädyissä real...
-
-</td>
-
-  </tr>
-
-  
-  
-  
-   <tr>
-    <th>Turku kukkii ennätyksellisen runsaana – kukkia saa poimia maisemapelloilta maksutta omaan käyttöön</th>
-  </tr>
-  <tr>
-    <td>12:14</td>
-
-  </tr>
-  <tr>
-    <td>Turun kaupunki kertoo satsanneensa tänä kesänä maisemapeltojen kukkaloistoon ennätyksellisen reilusti. Kaupungin joutomaita on muutettu maisemapelloiksi yhteensä 22 hehtaarin edestä.
-
-Maisemakukkaseosta kylvettiin kesäkuussa 37 pellolle ympäri Turkua. Ruissalossa kasvaa perinteisesti auringonkukkaa. Kukkia saa poimia maksutta omaan käyttöön. Pellot sijaitsevat kulkureittien varsilla, joten poimimaan voi lähteä helposti bussilla, kävellen tai pyöräillen.</td>
-
-  </tr>
-
-  
-  
-  
-</table>
+Turun Sanomat</h1>
+    <p>Valmentaja Jarno Koivusella ja Wilma Murrolla on ollut välillä myrskyssäkin suhde, mutta keskiviikkona Müncheniin pimentyneessä illassa yhteistyö sai kultaisen huipentuman. Se oli suuri hetki.</p>
+  </div>
+</div>
 
 </body>
 </html>
